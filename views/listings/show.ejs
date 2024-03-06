@@ -145,10 +145,13 @@
                             <p class="card-text">
                                 <%= review.comment %>
                             </p>
+
+                            <% if(currentUser) { %>
                             <form action="/listings/<%= listing._id %>/reviews/<%= review._id %>?_method=Delete"
                                 method="post">
                                 <button type="submit" class="btn btn-sm btn-outline-danger mt-2">Delete</button>
                             </form>
+                            <% } %>
                         </div>
                     </div>
                 </div>
