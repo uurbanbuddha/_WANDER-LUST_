@@ -11,6 +11,7 @@ const mapToken = process.env.MAP_TOKEN;
 const geocodingClient = mbxGeocoding({ accessToken: mapToken });
 
 
+
 /* INDEX CONTROLLER */
 module.exports.index = async (req, res) => {
 

@@ -107,7 +107,7 @@ const sessionOption = {
  //ROOT ROUTE
 app.get("/", (req, res) => {
 
-    res.render("/listings/welcome.ejs");
+    res.render("welcome.ejs");
 
 });
  
