@@ -104,13 +104,13 @@ const sessionOption = {
     }
 };
 
-//ROOT ROUTE
-/* app.get("/", (req, res) => {
+ //ROOT ROUTE
+app.get("/", (req, res) => {
 
     res.send("Root is working up to the mark!");
 
 });
- */
+ 
 
 
 app.use(session(sessionOption));
