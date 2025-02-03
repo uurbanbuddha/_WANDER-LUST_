@@ -22,6 +22,7 @@ if(process.env.NODE_ENV != "production")
     
     
     const dbUrl = process.env.ATLASDB_URL;
+    //const db = express();
     main().then(()=>
     {
         console.log("connected to the DB");
